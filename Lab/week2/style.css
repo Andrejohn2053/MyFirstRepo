@@ -11,7 +11,11 @@ body {
 
 /* Header Styles */
 header {
-    background: linear-gradient(301deg, #7676c7, #000);
+    
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: linear-gradient(301deg, #39eadb, #54c658);
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -32,11 +36,11 @@ header {
     display: block;
 }
 
-
 /* Navigation Styles */
 nav ul {
-    background-color: #333;
-    color: #fff;
+    
+    background-color: #5e0579;
+    color: #fdfdfd;
     text-align: center;
     list-style-type: none;
     margin: 0;
