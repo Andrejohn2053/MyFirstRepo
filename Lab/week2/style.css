@@ -38,7 +38,7 @@ header {
 /* Navigation Styles */
 nav ul {
     
-    background-color: #5e0579;
+    background-color: #333;
     color: #fdfdfd;
     text-align: center;
     list-style-type: none;
@@ -65,7 +65,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #505050;  /* Darker shade for hover */
+    background-color: #0774ab;  /* Darker shade for hover */
 }
 
 /* Banner Styles */
@@ -149,25 +149,31 @@ main h3 {
 .cta-container {
     text-align: center;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #000000c9;
     margin-top: 30px;
+    color: #ffffff;
+    font-size: 1.1em;
+    border-style:solid grey;
+    font-weight: 300;
+    
 
 }
 
 .cta-button {
    display: inline-block;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #12be49;
     color: #ffffff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 400px;
     font-weight: bold;
     margin-top: 15px;
     transition: background-color 0.3s;
+    font-size: large;
 }
 
 .cta-button:hover {
-    background-color: #7640B3;
+    background-color: #046d26;
 }
 
 /* Footer Styles */
