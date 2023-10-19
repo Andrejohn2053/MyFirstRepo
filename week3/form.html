@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="form">
+    <h1>User Registration</h1>
+    <form id="registration-form">
+      <div class="input-control">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username">
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password">
+        <div class="error"></div>
+      </div>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
